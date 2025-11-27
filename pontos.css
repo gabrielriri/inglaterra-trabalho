@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 :root {
@@ -32,7 +33,7 @@ header{
 body{
     background: linear-gradient(to top, black, #a7a7a7);
     text-align: center;
-    height: 100svh;
+    height: 145svh;
     font-size: 1.6rem;
 }
 
@@ -40,7 +41,7 @@ body{
     margin-top: 50rem;
     background-color: #5a0505;
     width: 150rem;
-    height: 90rem;
+    height: 120rem;
     margin-inline: auto;
     text-align: center;
     border-radius: 2.4rem;
@@ -59,5 +60,8 @@ h1 , h2 , p {
 } 
 h1 {
     font-size: 3.2rem;
+}
+p{
+        font-size: 1.7rem;
 }
 
