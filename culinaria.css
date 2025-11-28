@@ -17,8 +17,7 @@ footer {
 
 body{
     background: linear-gradient(to top, black, #a7a7a7);
-    text-align: center;
-    height: 140svh;
+    height: 100svh;
     font-size: 1.6rem;
 }
 header{
@@ -53,6 +52,7 @@ header{
     margin-block: 1.5rem;
 }
 
+
 h1 , p {
     color: #Fff;
 }
@@ -66,7 +66,6 @@ p {
     padding-top: 2rem;
     display: flex;
     
-
 }
 img {
     padding-top: 2rem;
@@ -90,5 +89,30 @@ img {
     flex-direction: column;
     max-width: 35rem;
     line-height: 2.5rem;
-    align-items: center;
+
+}
+
+.stick {
+     flex-direction: column;
+     display: flex;
+     max-width: 33rem;
+}
+
+p {
+    max-width: 60rem;
+    display: flex;
+
+
+}
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.ordem {
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    color: #Fff;
 }

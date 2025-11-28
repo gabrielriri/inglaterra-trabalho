@@ -41,7 +41,7 @@ body{
     margin-top: 50rem;
     background-color: #5a0505;
     width: 150rem;
-    height: 120rem;
+    height: 112rem;
     margin-inline: auto;
     text-align: center;
     border-radius: 2.4rem;
@@ -63,5 +63,34 @@ h1 {
 }
 p{
         font-size: 1.7rem;
+
 }
 
+.bigban-container{
+    flex-direction: row;
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+
+}
+
+.palacio-container {
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.torre-contaier {
+    flex-direction: row;
+    display: flex;
+}
+
+.baixo {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    padding-top: 10rem;
+    color: #FFf;
+}
