@@ -16,10 +16,12 @@ footer {
 }
 
 body{
-    background: linear-gradient(to top, black, #a7a7a7);
+    background: linear-gradient(to top,black, #a7a7a7 );
     text-align: center;
     height: 100svh;
     font-size: 1.6rem;
+    background-attachment: fixed;
+    
 }
 header{
     margin-top: 1.7rem;
@@ -35,7 +37,6 @@ header{
     gap: 2rem;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
 
-
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -48,45 +49,41 @@ header{
         
     }
 
-  div {
+.jogo {
     background-color: #5a0505;
-    max-width: 112rem;
-    height: 58rem;
+    max-width: 50rem;
+    height: 50rem;
     margin-inline: auto;
     text-align: center;
     border-radius: 2.4rem;
     padding: 1.5rem;
     margin-block: 1.5rem;
-}
 
-h1 , p {
-    color: #Fff;
 }
+div.questao {
+    background-color: black;
 
-h1 {
-    font-size: 4rem;
-    padding-top: 13rem;
-}
-
-p {
-    font-size: 1.7rem;
-    padding-top: 10rem;
+    max-width: 25rem;
+    height: 7rem;
+    border-radius: 7rem;
     display: flex;
+    align-items: center;
     margin-inline: auto;
-    text-align: center;
-    padding: 3rem;
-    padding-top: 3rem;
+    margin-top: 2rem;
+    
+    
+
+    label{
+        color: #fff;
+    }
+    input {
+        margin: 1rem;
+    }
 }
-img {
-    padding-top: 5rem;
-    width: 42rem;
-    height: 30rem;
-    display: inline-block;
-    padding-inline: 4rem;
-
+h1 {
+    padding-top: 13rem ;
+    color: #fff;
 }
-
-footer {
-
-    color: #Fff;
+h2 ,h3 {
+    color: #fff;
 }

@@ -33,18 +33,22 @@ header{
     margin-inline: auto;
     gap: 2rem;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+
+        position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
 }
     a {
         color: aliceblue;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 2rem;
         
     }
 
   .home {
     background-color: #5a0505;
     max-width: 112rem;
-    height: 80rem;
+    height: 65rem;
     margin-inline: auto;
     text-align: center;
     border-radius: 2.4rem;
@@ -58,7 +62,9 @@ h1 , p {
 }
 
 h1 {
-    font-size: 3.2rem;
+    font-size: 4rem;
+    padding-top: 13rem;
+    text-align: center;
 }
 
 p {
@@ -98,12 +104,6 @@ img {
      max-width: 33rem;
 }
 
-p {
-    max-width: 60rem;
-    display: flex;
-
-
-}
 section {
     display: flex;
     flex-direction: row;
@@ -112,7 +112,14 @@ section {
 .ordem {
     display: flex;
     flex-direction: row;
+    padding: 2rem;
+
 }
 footer {
     color: #Fff;
 }
+.resto {
+    margin-top: 2rem;
+    text-align: center;
+}
+
