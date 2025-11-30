@@ -37,8 +37,9 @@ header{
 body{
     background: linear-gradient(to top, black, #a7a7a7);
     text-align: center;
-    height: 145svh;
+    height: 100svh;
     font-size: 1.6rem;
+        background-attachment: fixed
 }
 
   div.class {
